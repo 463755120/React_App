@@ -20,7 +20,7 @@ class HomeAd extends React.Component {
                             </a>
                         </div>
                     })}
-                </div>
+            </div>
             </div>
         )
     }

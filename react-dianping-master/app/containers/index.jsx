@@ -29,7 +29,7 @@ class App extends React.Component {
         // 获取位置信息
         let cityName = LocalStore.getItem(CITYNAME)
         if (cityName == null) {
-            cityName = '神木'
+            cityName = '北京'
         }
         this.props.userInfoActions.update({
             cityName: cityName
