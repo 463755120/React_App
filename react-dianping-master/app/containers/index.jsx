@@ -50,6 +50,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
+    //类似绑定事件
     return {
         userInfoActions: bindActionCreators(userInfoActionsFromOtherFile, dispatch),
     }
