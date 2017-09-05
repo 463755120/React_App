@@ -3,7 +3,7 @@ import rootReducer from '../reducers'
 
 export default function configureStore(initialState) {
     const store = createStore(rootReducer, initialState,
-        // 触发 redux-devtools
+        // 触发 redux-devtools 唤起谷歌插件
         window.devToolsExtension ? window.devToolsExtension() : undefined
     )
     return store
