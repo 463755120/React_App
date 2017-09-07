@@ -29,7 +29,6 @@ class Ad extends React.Component{
             return res.json()
         }).then(json=>{
             const data = json
-            console.log(json)
             if(data.length){
                 this.setState({
                     data:data
