@@ -24,7 +24,7 @@ class SearchInput extends React.Component {
         )
     }
 
-    componentDidMout (){
+    componentDidMount (){
         this.setState({
             value:this.props.value || ''
         })
