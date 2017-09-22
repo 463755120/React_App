@@ -56,7 +56,6 @@ class Item extends React.Component {
             //获取点评状态
             commentState:this.props.data.commentState
         })
-        console.log(this.props.data)
     }
     showComment (){
         //显示输入框
@@ -67,7 +66,6 @@ class Item extends React.Component {
     submitComment (){
         //获取操作函数
         const submitComment = this.props.submitComment
-        console.log(submitComment)
         const id = this.props.data.id
         //获取评论内容
         const commentText = this.refs.commentText

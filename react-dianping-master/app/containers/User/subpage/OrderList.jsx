@@ -50,9 +50,9 @@ class OrderList extends React.Component {
     submitComment (id, value,callback){
         const result = postComment(id,value)
         result.then(res=>{
-           return res.json
+           return res.json()
         }).then(json=>{
-            if(json.errno ===0){
+            if(json.errno === 0){
                 callback()
             }
         })
